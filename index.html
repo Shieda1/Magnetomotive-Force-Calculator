@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magnetomotive Force Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="magnetomotiveForceRadio" name="variables" checked>
+  <label for="magnetomotiveForceRadio">Magnetomotive Force</label>
+
+  <input type="radio" id="numberofTurnsintheCoilRadio" name="variables">
+  <label for="numberofTurnsintheCoilRadio">Number of Turns in the Coil</label>
+
+  <input type="radio" id="currentRadio" name="variables">
+  <label for="currentRadio">Current</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(N) Number of Turns in the Coil (turns)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(I) Current (amps)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
